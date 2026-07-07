@@ -5,7 +5,7 @@ from datetime import datetime
 
 LOG_FILE = "security_audit.log"
 THRESHOLD = 5 
-TIME_WINDOW = 20 
+TIME_WINDOW = 10 
 
 class SecurityMonitor:
     def __init__(self):
